@@ -1,6 +1,6 @@
 ---
 title: Functional Swift Conference
-sub_title: December 12th, Brooklyn
+sub_title: December 12th 2015, Brooklyn
 ---
 
 On December 12th 2015, a small conference on the topic of Functional Programming in Swift will happen in Brooklyn (just like in [2014](http://2014.funswiftconf.com)). We will have a day filled with with awesome talks and lots of great conversation. 
