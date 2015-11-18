@@ -1,0 +1,129 @@
+/*=========================================
+Reset
+=========================================== */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0} 
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.group:before,
+.group:after { content: ""; display: table;} 
+.group:after { clear: both;}
+.group { zoom: 1;}
+
+/*=========================================
+Base
+=========================================== */
+body {
+	font:1.0em/1;
+  font-family: system, -apple-system,
+      ".SFNSDisplay-Regular", "Helvetica Neue", "Lucida Grande";
+	color:#777;
+	-webkit-font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+#wrapper {
+	padding:100px 20px 100px 20px;
+	max-width:700px;
+	margin:0 auto;
+}
+
+#header {
+	border-bottom:1px solid #eee;
+	margin-bottom:40px;
+	padding-bottom:40px;
+	text-align:center;
+	position:relative;
+}
+
+#avatar {
+	display:inline-block;
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	margin-bottom:20px;
+}
+
+#badge {
+	position: absolute; bottom: 10px; right: 10px;
+	height: 48px; width: 48px;
+}
+/*=========================================
+Typography
+=========================================== */
+/*Accent color*/
+a {
+	text-decoration:none;
+	color:#5694f1;
+	font-weight:400;
+}
+
+h1 {
+	font-weight:400;
+	font-size:3em;
+	color:#222;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: 300;
+	color:#aaa; 
+	margin: 1em 0;
+}
+
+h3 {
+  margin: 1em 0;
+  font-weight: bold;
+}
+
+li {
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+}
+
+
+p {
+	line-height: 1.8;
+  margin-bottom: 1em;
+}
+
+ul {
+  line-height: 1em;
+  margin-bottom: 1em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 540px) {
+  #wrapper { padding:2em; }
+  #header { margin-bottom: 1em; }
+}
+
+@media screen and (max-width:440px) {
+#wrapper { padding:1em; }
+#header { margin-bottom: 1em; }
+}
+
+img.profile-pic {
+  float: right;
+  width: 100px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.speaker {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.speaker img {
+  width: 100px;
+}
+
+.speakers {
+  overflow: auto;
+  clear: both;
+}

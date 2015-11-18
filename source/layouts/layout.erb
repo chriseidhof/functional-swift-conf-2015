@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Functional Swift Conference" %></title>
+    
+    <%= stylesheet_link_tag "all" %>
+  </head>
+  
+  <body class="<%= page_classes %>">
+    <section id="wrapper">
+      <header id="header">
+      <h1><a href="/">λ</a></h1>
+          <h2><%= current_page.data.title %></h2>
+          <h3><%= current_page.data.sub_title %></h3>
+      </header> <!--header-->
+      <%= yield %>
+    </section>
+  </body>
+</html>
