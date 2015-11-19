@@ -63,7 +63,7 @@ Their offices are located at [58 Kent St, Greenpoint](https://www.google.com/map
 
 ## Tickets
 
-You can register for a ticket [here](https://ti.to/functionalswiftconf/functional-swift-2015). Tickets are limited. If you cannot make it, please be so kind to cancel your ticket so we can free your spot to people on the waiting list.
+Tickets are already sold out. However, you can register for the waiting list [here](https://ti.to/functionalswiftconf/functional-swift-2015/with/nqfgael2m3m). If you already have a ticket, but cannot make it, please be so kind to cancel your ticket so we can free your spot to people on the waiting list.
 
 ## Inclusivity Policy
 
