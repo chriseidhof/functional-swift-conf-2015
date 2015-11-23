@@ -30,10 +30,11 @@ On December 12th 2015, a small conference on the topic of Functional Programming
   </div>
 
   <div class="speaker">
-  <a href="https://twitter.com/rob_rix">
-    <img src="/images/speakers/rob.jpg" /><br/>
-    Rob Rix
-  </a>
+  <a href="#">
+  <img src="/images/speakers/todo.jpg" /><br/>
+  TBA
+    <br/>
+    </a>
   </div>
 
   <div class="speaker">
