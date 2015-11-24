@@ -30,10 +30,9 @@ On December 12th 2015, a small conference on the topic of Functional Programming
   </div>
 
   <div class="speaker">
-  <a href="#">
-  <img src="/images/speakers/todo.jpg" /><br/>
-  TBA
-    <br/>
+  <a href="https://twitter.com/alexisgallagher">
+    <img src="/images/speakers/alexis.jpg" /><br/>
+    Alexis Gallagher
     </a>
   </div>
 
