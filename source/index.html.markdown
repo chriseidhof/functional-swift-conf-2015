@@ -37,9 +37,9 @@ On December 12th 2015, a small conference on the topic of Functional Programming
   </div>
 
   <div class="speaker">
-  <a href="#">
-  <img src="/images/speakers/todo.jpg" /><br/>
-  TBA
+  <a href="https://twitter.com/brianpartridge">
+  <img src="/images/speakers/brian.jpg" /><br/>
+  Brian Partridge
     <br/>
     </a>
   </div>
